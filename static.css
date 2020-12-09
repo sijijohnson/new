@@ -1,13 +1,17 @@
-*{margin: 0;padding: 0;box-sizing: border-box ;font-family: 'Roboto', sans-serif;
+*{margin: 0;padding: 0;box-sizing: border-box ;font-family: 'Poppins', sans-serif;
+
 }
 a{ text-decoration: none;}
 a:hover{ text-decoration: none;}
 li{list-style: none;}
 p{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     line-height: 1.6;
     font-weight: 400;
-    color: rgb(26, 43, 78);  
+    color: rgb(36, 52, 75);  
+}
+h1{
+    color: rgb(36, 52, 75);  
 }
  html, body {
     max-width: 100%;
@@ -15,7 +19,7 @@ p{
   }
   
 .header-section{
-    color: rgb(26, 43, 78);
+    color: rgb(36, 52, 75);
     position: relative;
     top: 200px;
     left: 100px;
@@ -79,7 +83,7 @@ width: 700;
 }
 .card-img-right{
     position: relative;
-    margin-left: 230px;
+    margin-left: 100px;
     margin-top: 50px;
     size: 50% 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -98,3 +102,13 @@ div.card {
       margin-left: 20px;
       margin-top: 20px;
   }
+  .svgs{
+    padding: 20px;
+    width: 60px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+     }
+     /* .svgs:first-child{
+      margin-left: 520px;
+     } */
