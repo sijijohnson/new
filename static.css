@@ -4,14 +4,14 @@
 a{ text-decoration: none;}
 a:hover{ text-decoration: none;}
 li{list-style: none;}
-p{
-    font-size: 0.8rem;
-    line-height: 1.6;
-    font-weight: 400;
+p,li,span{
+    font-size: 0.9rem;
+    line-height: 1.7;
+    font-weight: 500;
     color: rgb(36, 52, 75);  
 }
 h1{
-    color: rgb(36, 52, 75);  
+    color:rgb(39, 54, 77);
 }
  html, body {
     max-width: 100%;
@@ -112,3 +112,7 @@ div.card {
      /* .svgs:first-child{
       margin-left: 520px;
      } */
+     .slick-list {
+        height: auto !important;
+    
+     }
