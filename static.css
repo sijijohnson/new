@@ -30,10 +30,10 @@ h1{
 .header-buttons a{
     border: 1px solid;
     border-radius: 100px;
-    padding: 12px 35px;
+    padding: 12px 12px;
     outline: none;
     color:rgb(26, 43, 78);
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
     line-height: 2.4;
     text-align: center;
@@ -77,7 +77,7 @@ width: 700;
 }
 .header-div{
     background-image:linear-gradient(rgba(12, 127, 161, 0.707),rgba(8, 94, 165, 0.7)),url('images/bg-img.jpg');
-    height: 350px;
+    height: auto;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -115,4 +115,26 @@ div.card {
      .slick-list {
         height: auto !important;
     
+     }
+     /**************** media qweries ***********/
+     @media(max-width:760px){
+         .card{
+             height: auto;
+            margin-top: 20px;
+         }
+         .card-text{
+             font-size: 1.2rem;
+         }
+         .text{
+           padding-top: 0%;
+         }
+         .footer-icon{
+             text-align: center;
+         }
+
+     }
+     @media(max-width:992px){
+        .footer-icon{
+            text-align: center;
+        } 
      }
